@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour {
 
     public float speed = 5f;
+    public float healthPoints = 100f;
+    public GameObject deathFX;
 
     private Transform target;
     private int wavePointIndex = 0;
@@ -16,6 +18,14 @@ public class EnemyBehaviour : MonoBehaviour {
 
     void Update()
     {
+        if(healthPoints <= 0f)
+        {
+            GameObject enemyDeathFX = Instantiate(deathFX, transform.position, transform.rotation);
+            Destroy(enemyDeathFX, 2f);
+
+            Destroy(gameObject);
+        }
+
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime);
 

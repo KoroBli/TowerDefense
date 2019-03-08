@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198297304493593926}
   - component: {fileID: 199941789941749134}
   m_Layer: 0
-  m_Name: BulletImpactFX
+  m_Name: EnemyDestroyFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,8 +289,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.25
-      minScalar: 0.1
+      scalar: 0.8
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4647,8 +4647,8 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 5d7be651bf13c384db6a71120ebebf18, type: 2}
-  - {fileID: 2100000, guid: 5d7be651bf13c384db6a71120ebebf18, type: 2}
+  - {fileID: 2100000, guid: ae218a20092f663499b048a9187c504e, type: 2}
+  - {fileID: 2100000, guid: ae218a20092f663499b048a9187c504e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
