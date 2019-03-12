@@ -30,7 +30,7 @@ public class NodeBehaviour : MonoBehaviour
             return;
         }
 
-        if (buildManager.GetTurretToBuild())
+        if (buildManager.GetTurretToBuild() == null)
         {
             return;
         }
@@ -54,7 +54,7 @@ public class NodeBehaviour : MonoBehaviour
             return;
         }
 
-        if (buildManager.GetTurretToBuild())
+        if (buildManager.GetTurretToBuild() == null)
         {
             return;
         }

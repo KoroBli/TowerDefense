@@ -9187,7 +9187,22 @@ Prefab:
     - target: {fileID: 114439594452247000, guid: 813ec5aa9be0fbb459f22898e3b9c7f4,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseAnotherTurret
+      value: PurchaseMissileTurret
+      objectReference: {fileID: 0}
+    - target: {fileID: 114034297549440446, guid: 813ec5aa9be0fbb459f22898e3b9c7f4,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114034297549440446, guid: 813ec5aa9be0fbb459f22898e3b9c7f4,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114034297549440446, guid: 813ec5aa9be0fbb459f22898e3b9c7f4,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813ec5aa9be0fbb459f22898e3b9c7f4, type: 2}
@@ -13516,7 +13531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   standardTurretPrefab: {fileID: 1126403072144844, guid: b3a349fb7ff2d0b4ca3b2799579772ae,
     type: 2}
-  AnotherTurretPrefab: {fileID: 1126403072144844, guid: 10fc5e040369879479c2d7f0b045d9b5,
+  missileTurretPrefab: {fileID: 1126403072144844, guid: 10fc5e040369879479c2d7f0b045d9b5,
     type: 2}
 --- !u!1001 &2043335018
 Prefab:
