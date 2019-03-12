@@ -9,7 +9,7 @@ public class TurretBehaviour : MonoBehaviour {
     [Header("Attributes")]
     public float range = 10f;
     public float fireRate = 1f;
-    public float fireCountdown = 0f;
+    float fireCountdown = 0f;
 
 
     [Header("Unity Setup Fields")]
