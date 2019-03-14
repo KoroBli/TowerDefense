@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4795569342622790}
   - component: {fileID: 33909182690780434}
   - component: {fileID: 23300748283478680}
-  - component: {fileID: 135262537951473356}
   - component: {fileID: 114320349083325028}
   m_Layer: 0
   m_Name: Enemy
@@ -100,15 +99,3 @@ MonoBehaviour:
   healthPoints: 100
   income: 50
   deathFX: {fileID: 1624195521839678, guid: a4dd6515cc4142a4cbf37e9f0e6f8493, type: 2}
---- !u!135 &135262537951473356
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1590481621849166}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}

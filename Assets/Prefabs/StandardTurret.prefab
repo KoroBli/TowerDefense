@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4119911234114296}
   - component: {fileID: 33770926465506384}
   - component: {fileID: 23592955893875464}
-  - component: {fileID: 65467372077639736}
   m_Layer: 0
   m_Name: Foot
   m_TagString: Untagged
@@ -85,7 +84,6 @@ GameObject:
   - component: {fileID: 4068547368576084}
   - component: {fileID: 33779922769740212}
   - component: {fileID: 23021557483442314}
-  - component: {fileID: 135342766638954804}
   m_Layer: 0
   m_Name: Cabin
   m_TagString: Untagged
@@ -103,7 +101,6 @@ GameObject:
   - component: {fileID: 4999284260499340}
   - component: {fileID: 33089028766279320}
   - component: {fileID: 23265816570572260}
-  - component: {fileID: 65195419856474144}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -320,30 +317,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1906434633078266}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65195419856474144
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1946026333672558}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65467372077639736
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1096543563726028}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114743025451622168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -356,23 +329,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 8
+  bulletPrefab: {fileID: 1431777519937084, guid: 270e25d22ebaf4749b40972b8294c982,
+    type: 2}
   fireRate: 1
-  fireCountdown: 0
+  useLaser: 0
+  lineRenderer: {fileID: 0}
   enemyTag: Enemy
   partToRotate: {fileID: 4956786303546204}
   turnSpeed: 10
-  bulletPrefab: {fileID: 1431777519937084, guid: 270e25d22ebaf4749b40972b8294c982,
-    type: 2}
   firePoint: {fileID: 4014054628439390}
---- !u!135 &135342766638954804
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906434633078266}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
