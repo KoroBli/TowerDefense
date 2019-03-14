@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+  damage: 50
   explodingRadius: 5
   bulletImpact: {fileID: 1923559498437768, guid: 3b091e70a9a22ea4ea0b38d1a3322436,
     type: 2}

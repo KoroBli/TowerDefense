@@ -97,6 +97,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  healthPoints: 100
+  income: 50
+  deathFX: {fileID: 1624195521839678, guid: a4dd6515cc4142a4cbf37e9f0e6f8493, type: 2}
 --- !u!135 &135262537951473356
 SphereCollider:
   m_ObjectHideFlags: 1
