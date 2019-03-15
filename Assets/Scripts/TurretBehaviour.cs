@@ -111,7 +111,11 @@ public class TurretBehaviour : MonoBehaviour {
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
 
-        laserFX.transform.position = target.position;
+        Vector3 dir = firePoint.position - target.position;
+
+        laserFX.transform.position = target.position + dir.normalized * 0.5f;
+
+        laserFX.transform.rotation = Quaternion.LookRotation(dir);
     }
 
     private void Shoot()
